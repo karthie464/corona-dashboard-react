@@ -41,6 +41,32 @@ body .p-inputtext:enabled:focus {
   border-color: #0e0e0e;
 }
 
+body .p-treetable .p-sortable-column:nth-of-type(1)
+{
+  width: 45vw;
+}
+body .p-treetable .p-treetable-tbody > tr:focus + tr > td {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+body .p-treetable .p-treetable-tbody > tr:focus > td {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+body .p-treetable .p-sortable-column.p-highlight {
+  background-color: #f4f4f4 !important;
+  color: #101010 !important;
+}
+body .p-treetable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: #0c0c0c !important;
+}
+body .p-treetable .p-sortable-column:focus {
+  box-shadow: none !important;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -15,7 +15,7 @@ class Statewise extends React.Component<any, any>  {
     return (
       <TreeTable value={this.props.states} >
         <Column field="name" header="State" sortable filter={true} 
-                filterPlaceholder={'State/District Name ...'} filterMatchMode="custom" filterFunction={this.filterMethod}expander></Column>
+                filterPlaceholder={'State/District Name ...'} expander></Column>
         <Column field="confirmed" header="Confirmed" sortable></Column>
         <Column field="active" header="Active" sortable></Column>
         <Column field="recovered" header="Recovered" sortable></Column>
