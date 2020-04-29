@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/nova-light/theme.css";
+import "primeicons/primeicons.css";
 
 ReactDOM.render(
   <React.StrictMode>

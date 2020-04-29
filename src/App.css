@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+body .p-treetable .p-treetable-tbody > tr > td {
+  padding: 0 0 !important
+}
+
+body .p-inputtext {
+  font-size: 12px !important
+}
+
+body .p-inputtext:enabled:focus {
+  box-shadow: 0 0 0 0.2em #b7d7f1;
+  border-color: #0e0e0e;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
