@@ -45,7 +45,8 @@ stateDetails.forEach((stateObj: any) => {
   let districtArr = [{}];
 if (stateObj.district !== undefined) {  
   Object.entries(stateObj.district).forEach((value: any) => {
-    const districtObj = new districtModel(value[0], value[1].active, value[1].confirmed, value[1].recovered, value[1].deceased)
+    const districtObj = new districtModel(value[0], value[1].active, value[1].confirmed, value[1].recovered, value[1].deceased,
+      value[1].delta.confirmed, value[1].delta.recovered, value[1].delta.deceased);
     const tempObj = {
       'key' : stateCount+'-'+districtCount,
       'data' : districtObj
@@ -54,7 +55,8 @@ if (stateObj.district !== undefined) {
     districtCount++;
   })
 }
-const stateData = new stateModel(stateObj.state, stateObj.active, stateObj.confirmed, stateObj.recovered, stateObj.deaths )
+const stateData = new stateModel(stateObj.state, stateObj.active, stateObj.confirmed, stateObj.recovered, stateObj.deaths,
+            stateObj.deltaconfirmed, stateObj.deltarecovered, stateObj.deltadeaths);
 districtArr.splice(0,1);
 const tempStateObj = {
   'key' : stateCount,

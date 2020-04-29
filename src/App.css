@@ -28,8 +28,23 @@
   color: #61dafb;
 }
 
+body .p-component {
+  font-family: cursive !important;
+  font-size: 12px !important;
+}
+
+body .p-treetable-thead{
+  font-family: sans-serif !important;
+  font-size: 14px !important;
+}
+
+body .p-treetable .p-treetable-tbody > tr > td:nth-of-type(1) {
+  font-weight: bold;
+}
+
 body .p-treetable .p-treetable-tbody > tr > td {
-  padding: 0 0 !important
+  padding: 0 0 !important;
+  color: #900941 !important;
 }
 
 body .p-inputtext {
@@ -40,10 +55,14 @@ body .p-inputtext:enabled:focus {
   box-shadow: 0 0 0 0.2em #b7d7f1;
   border-color: #0e0e0e;
 }
+body .p-treetable .p-sortable-column
+{
+  width: 11vw;
+}
 
 body .p-treetable .p-sortable-column:nth-of-type(1)
 {
-  width: 45vw;
+  width: 40vw;
 }
 body .p-treetable .p-treetable-tbody > tr:focus + tr > td {
   -moz-box-shadow: none !important;

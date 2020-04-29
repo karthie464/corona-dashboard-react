@@ -1,0 +1,37 @@
+.overallDiv{
+    display: inline-grid;
+}
+.deltaChangesDiv{
+    display: inline-flex;
+}
+.confirmed{
+    color: rgb(255, 7, 58);
+    font-size: 11px;
+}
+.deceased{
+    color: rgb(108, 117, 125);
+    font-size: 11px;
+}
+.recovered{
+    color: rgb(40, 167, 69);
+    font-size: 11px;
+}
+.iconConfirmed svg {
+    height: 13px;
+    width: 13px;
+    stroke-width: 3;
+    color: rgb(255, 7, 58);
+}
+
+.iconRecovered svg{
+    height: 13px;
+    width: 13px;
+    stroke-width: 3;
+    color: rgb(40, 167, 69);
+}
+.iconDeceased svg{
+    height: 13px;
+    width: 13px;
+    stroke-width: 3;
+    color: rgb(108, 117, 125);
+}
