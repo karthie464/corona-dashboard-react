@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/corona-dashboard-react/static/css/main.3d9a8375.chunk.css",
+    "main.js": "/corona-dashboard-react/static/js/main.4beb38c7.chunk.js",
+    "main.js.map": "/corona-dashboard-react/static/js/main.4beb38c7.chunk.js.map",
+    "runtime-main.js": "/corona-dashboard-react/static/js/runtime-main.cead8295.js",
+    "runtime-main.js.map": "/corona-dashboard-react/static/js/runtime-main.cead8295.js.map",
+    "static/css/2.0d744401.chunk.css": "/corona-dashboard-react/static/css/2.0d744401.chunk.css",
+    "static/js/2.293d170b.chunk.js": "/corona-dashboard-react/static/js/2.293d170b.chunk.js",
+    "static/js/2.293d170b.chunk.js.map": "/corona-dashboard-react/static/js/2.293d170b.chunk.js.map",
+    "index.html": "/corona-dashboard-react/index.html",
+    "precache-manifest.5aa1dcb11698cb7a40a5bd2805862dbe.js": "/corona-dashboard-react/precache-manifest.5aa1dcb11698cb7a40a5bd2805862dbe.js",
+    "service-worker.js": "/corona-dashboard-react/service-worker.js",
+    "static/css/2.0d744401.chunk.css.map": "/corona-dashboard-react/static/css/2.0d744401.chunk.css.map",
+    "static/css/main.3d9a8375.chunk.css.map": "/corona-dashboard-react/static/css/main.3d9a8375.chunk.css.map",
+    "static/js/2.293d170b.chunk.js.LICENSE.txt": "/corona-dashboard-react/static/js/2.293d170b.chunk.js.LICENSE.txt",
+    "static/media/primereact.min.css": "/corona-dashboard-react/static/media/line.567f5738.gif",
+    "static/media/theme.css": "/corona-dashboard-react/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/primeicons.css": "/corona-dashboard-react/static/media/primeicons.e5e0e944.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cead8295.js",
+    "static/css/2.0d744401.chunk.css",
+    "static/js/2.293d170b.chunk.js",
+    "static/css/main.3d9a8375.chunk.css",
+    "static/js/main.4beb38c7.chunk.js"
+  ]
+}
