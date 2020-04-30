@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d34524d8edfa8fa5d07613404b1b6d8",
+    "revision": "22017c2f722351bf71632598a5085a1f",
     "url": "/corona-dashboard-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-dashboard-react/static/css/2.0d744401.chunk.css"
   },
   {
-    "revision": "f0c0b0ae0787188ebadc",
-    "url": "/corona-dashboard-react/static/css/main.a515e4ac.chunk.css"
+    "revision": "2a5b8da8c454e9112d10",
+    "url": "/corona-dashboard-react/static/css/main.ac6cb40c.chunk.css"
   },
   {
     "revision": "26af34747afde1837484",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-dashboard-react/static/js/2.dacfa28f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0c0b0ae0787188ebadc",
+    "revision": "2a5b8da8c454e9112d10",
     "url": "/corona-dashboard-react/static/js/main.9553b258.chunk.js"
   },
   {
